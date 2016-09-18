@@ -1,0 +1,3 @@
+useDynLib(collatz)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
