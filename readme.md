@@ -1,7 +1,7 @@
 ## Introduction
 From [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture):
 
-Take any positive integer n. If n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. The conjecture is that no matter what number you start with, you will always eventually reach 1
+Take any positive integer n. If n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. The conjecture is that no matter what number you start with, you will always eventually reach 1.
 
 This package calculates the stoping time, aka how many steps it takes to get  to one.
 

@@ -1,12 +1,15 @@
 Package: collatz
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Computes Collatz Stopping Numbers
 Version: 1.0
 Date: 2016-09-17
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one
-        or more full sentences.
+Author: John Wilshire
+Maintainer: John Wilshire <john.h.wilshire@gmail.com>
+Description: Take any positive integer n. 
+  If n is even, divide it by 2 to get n / 2. If n is odd, multiply it by 3 and add 1 to obtain 3n + 1. 
+  The conjecture is that no matter what number you start with, you will always eventually reach 1.
+  
+  This packages computes the number of operations a number takes in order to reach 1 (it's stopping time).
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.6)
 LinkingTo: Rcpp

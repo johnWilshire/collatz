@@ -1,3 +1,5 @@
 *.Rproj*
 *.html
 *.o
+.Rproj.user
+.Rhistory
